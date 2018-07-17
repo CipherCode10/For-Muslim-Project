@@ -1,0 +1,61 @@
+body 
+{
+background-color:white;
+background-attachment:fixed; background-size:cover;   
+background-repeat:no-repeat; 
+}
+
+.Text-Ani
+{
+    text-align:center;
+    font-family:Forte , arial;
+    font-size:20px;
+    color:rgba(255,255,255,.1);
+    background-image:url(../Backgrounds/Animation1.png);
+    background-repeat:repeat-x;
+    -webkit-background-clip:text;
+    animation:animate 15s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position:left 0px top 10px;
+    }
+    40%
+    {
+        background-position:left 800px top 10px;
+    }
+}
+
+p
+{
+    text-align:center;
+    color:#000;
+    font-size:30px;
+    font-weight:bold;
+    text-shadow:2px 2px lavender;
+}
+
+td
+{
+    padding:40px;
+}
+
+td img
+{
+    border-radius:50%;
+}
+
+#p1 a , #p2 a ,#p3 a , #p4 a , #p5 a 
+
+
+{
+    font-family:'Harlow Solid Italic' , arial;
+    text-decoration:none;
+    color:#2F4F4F;
+    
+}
+
+
